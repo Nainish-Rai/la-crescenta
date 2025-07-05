@@ -14,7 +14,7 @@ export function EmailSignup() {
   return (
     <form onSubmit={handleSubmit} className="flex gap-[5px]">
       {/* Email input */}
-      <div className="relative w-[310px] h-[50px]">
+      <div className="relative w-16 lg:w-[310px] h-[50px]">
         <input
           type="email"
           value={email}

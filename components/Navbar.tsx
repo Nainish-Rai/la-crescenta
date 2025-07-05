@@ -18,12 +18,12 @@ export function Navbar() {
       </div>
 
       {/* Navigation Links */}
-      <div className="flex items-center gap-10">
+      <div className=" items-center hidden md:flex gap-10">
         {navLinks.map((link, index) => (
           <a
             key={index}
             href="#"
-            className="text-sm font-semibold text-gray-700 hover:text-blue-700 transition-colors"
+            className="text-base font-semibold text-gray-700 hover:text-blue-700 transition-colors"
           >
             {link}
           </a>
@@ -38,7 +38,7 @@ export function Navbar() {
         <button className="flex items-center justify-center px-2.5 py-2.5 rounded-lg bg-vet-primary hover:bg-vet-primary  cursor-pointer transition-colors">
           <span
             className="text-sm font-semibold text-white"
-            style={{ fontSize: "0.75rem" }}
+            // style={{ fontSize: "0.75rem" }}
           >
             Book a Service
           </span>

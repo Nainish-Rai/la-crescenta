@@ -30,7 +30,7 @@ const features = [
 
 export function FeaturesList() {
   return (
-    <div className="flex items-center justify-center gap-[70px] w-[1104px]">
+    <div className="flex flex-col md:flex-row  items-start justify-evenly gap-8  sm:gap-[70px] lg:w-full">
       {features.map((feature, index) => (
         <FeatureItem
           key={index}

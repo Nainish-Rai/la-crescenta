@@ -29,9 +29,9 @@ export function Hero() {
 
           {/* Features section */}
           <div className="bg-background backdrop-blur-2xl mt-32 mb-4 rounded-4xl">
-            <div className="px-8 sm:px-16 p-8 sm:p-4 ">
+            {/* <div className="px-8 sm:px-16 p-8 sm:p-4 ">
               <FeaturesList />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

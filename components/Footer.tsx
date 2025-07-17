@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Phone, Facebook, Twitter, Instagram } from "lucide-react";
 
 export function Footer() {
-  const navigationItems = ["Home", "Services", "About Us", "Blog", "Contact"];
+  const navigationItems = ["Home", "Services", "About Us", "Contact"];
 
   return (
     <footer className="bg-background border-t border-vet-border py-8">

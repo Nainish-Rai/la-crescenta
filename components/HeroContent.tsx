@@ -5,14 +5,13 @@ export function HeroContent() {
     <div className="flex flex-col gap-5 max-w-[527px]">
       {/* Main heading */}
       <h1 className="text-4xl md:text-6xl font-bold leading-[1] tracking-[-0.02em] text-gray-50">
-        Award-Winning Veterinary Care
+        Crescenta Valley Veterinary Hospital
       </h1>
 
       {/* Subtitle */}
       <p className="text-lg leading-[1.4] text-gray-50">
-        Compassionate, state-of-the-art veterinary care for your beloved pets.
-        Our experienced team is dedicated to keeping your furry family members
-        healthy, happy, and thriving.
+        Passionate Veterinary Care for Dogs, Cats in La Crescenta & the
+        Foothills
       </p>
 
       {/* Email signup form */}

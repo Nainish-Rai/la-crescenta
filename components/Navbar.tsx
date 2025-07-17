@@ -2,7 +2,13 @@ import Image from "next/image";
 import { ChevronRight } from "lucide-react";
 
 export function Navbar() {
-  const navLinks = ["Home", "Services", "About Us", "Blog", "Contact"];
+  const navLinks = [
+    { label: "Home", href: "/" },
+    { label: "Services", href: "/services" },
+    { label: "About Us", href: "/about-us" },
+    // { label: "Blog", href: "/blog" },
+    { label: "Contact Us", href: "/contact-us" },
+  ];
 
   return (
     <nav className="bg-white h-20 w-full max-w-7xl mx-auto flex items-center justify-between px-4">
@@ -13,7 +19,7 @@ export function Navbar() {
           alt="Pet Care Logo"
           width={40}
           height={40}
-          className="w-10 h-10"
+          className="w-16 h-16"
         />
       </div>
 
@@ -22,10 +28,10 @@ export function Navbar() {
         {navLinks.map((link, index) => (
           <a
             key={index}
-            href="#"
+            href={link.href}
             className="text-base font-semibold text-gray-700 hover:text-blue-700 transition-colors"
           >
-            {link}
+            {link.label}
           </a>
         ))}
       </div>

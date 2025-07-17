@@ -13,11 +13,13 @@ const Contact8 = () => {
           </p>
         </div>
         <div className="mx-auto mt-24 grid max-w-7xl gap-4 md:grid-cols-2">
-          <img
-            src="/images/hospital.png"
-            alt="Crescenta Valley Veterinary Hospital"
-            className="h-full rounded-lg border object-cover"
-          />
+          <div className="h-full rounded-lg border object-cover">
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://maps.google.com/maps?q=3254+Foothill+Blvd+Glendale,+CA+91214+USA&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            ></iframe>
+          </div>
           <div className="flex flex-col gap-2 rounded-lg bg-accent p-2">
             <div className="flex h-full flex-col justify-between gap-6 rounded-lg bg-background p-6">
               <p className="text-2xl">Email</p>
@@ -33,9 +35,15 @@ const Contact8 = () => {
                   <p className="mb-2 text-xl text-muted-foreground md:mb-4">
                     Crescenta Valley Veterinary Hospital
                   </p>
-                  <p>3254 Foothill Boulevard, La Crescenta, CA 91214</p>
-                  <p>Phone: (818) 249-0022</p>
-                  <p>Fax: (818) 249-0044</p>
+                  <p>3254 Foothill Blvd, Glendale, CA 91214</p>
+                  <p>
+                    <span className="text-muted-foreground">Phone:</span> (818)
+                    249-0022
+                  </p>
+                  <p>
+                    <span className="text-muted-foreground">Fax:</span> (818)
+                    249-0044
+                  </p>
                   <p>
                     Website:{" "}
                     <a

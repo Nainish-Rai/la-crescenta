@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ChevronRight } from "lucide-react";
+import Link from "next/link";
 
 export function Navbar() {
   const navLinks = [
@@ -7,7 +8,7 @@ export function Navbar() {
     { label: "Services", href: "/services" },
     { label: "About Us", href: "/about-us" },
     // { label: "Blog", href: "/blog" },
-    { label: "Contact Us", href: "/contact-us" },
+    // { label: "Contact Us", href: "/contact-us" },
   ];
 
   return (
@@ -41,14 +42,16 @@ export function Navbar() {
         {/* Sign in Button */}
 
         {/* Book a Service Button */}
-        <button className="flex items-center justify-center px-2.5 py-2.5 rounded-lg bg-vet-primary hover:bg-vet-primary  cursor-pointer transition-colors">
-          <span
-            className="text-sm font-semibold text-white"
-            // style={{ fontSize: "0.75rem" }}
-          >
-            Book a Service
-          </span>
-        </button>
+        <Link href="/contact-us">
+          <button className="flex items-center justify-center px-2.5 py-2.5 rounded-lg bg-vet-primary hover:bg-vet-primary  cursor-pointer transition-colors">
+            <span
+              className="text-sm font-semibold text-white"
+              // style={{ fontSize: "0.75rem" }}
+            >
+              Contact Us
+            </span>
+          </button>
+        </Link>
       </div>
     </nav>
   );

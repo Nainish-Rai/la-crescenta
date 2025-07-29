@@ -3,7 +3,7 @@ import { Footer } from "../../components/Footer";
 
 export default function ContactUsPage() {
   return (
-    <div className="">
+    <div className=" w-full max-w-6xl mx-auto">
       <Contact8 />
       <Footer />
     </div>

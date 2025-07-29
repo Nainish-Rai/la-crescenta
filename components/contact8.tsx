@@ -68,7 +68,7 @@ const Contact8 = () => {
         </div>
 
         {/* Emergency Hospitals Table */}
-        <div className="mx-auto mt-24 max-w-7xl">
+        <div className="mx-auto mt-24 max-w-3xl">
           <div className="text-center mb-12">
             <h2 className="mb-3 text-3xl font-bold text-vet-primary">
               After Hours Emergency Care
@@ -86,14 +86,9 @@ const Contact8 = () => {
                     <th className="text-left p-4 font-semibold text-vet-primary">
                       Hospital
                     </th>
-                    <th className="text-left p-4 font-semibold text-vet-primary">
-                      Approx. Distance*
-                    </th>
+
                     <th className="text-left p-4 font-semibold text-vet-primary">
                       Contact / Hours
-                    </th>
-                    <th className="text-left p-4 font-semibold text-vet-primary">
-                      Why Choose It
                     </th>
                   </tr>
                 </thead>
@@ -107,7 +102,7 @@ const Contact8 = () => {
                         4254 Eagle Rock Blvd, Los Angeles 90065
                       </div>
                     </td>
-                    <td className="p-4 text-sm">~6 ⅔ mi (≈ 10 min off-peak)</td>
+
                     <td className="p-4">
                       <div className="text-sm">24 hrs daily</div>
                       <div className="text-sm">☎ 323-507-2301</div>
@@ -120,10 +115,6 @@ const Contact8 = () => {
                         erae.vet
                       </a>
                     </td>
-                    <td className="p-4 text-sm">
-                      Nearest option; cats & dogs only; street-level parking
-                      right in front.
-                    </td>
                   </tr>
                   <tr className="border-b hover:bg-accent/50 transition-colors">
                     <td className="p-4">
@@ -134,7 +125,7 @@ const Contact8 = () => {
                         4641 Colorado Blvd, Los Angeles 90039
                       </div>
                     </td>
-                    <td className="p-4 text-sm">~7 mi (≈ 12 min)</td>
+
                     <td className="p-4">
                       <div className="text-sm">24 hrs daily</div>
                       <div className="text-sm">☎ 818-244-7977</div>
@@ -147,10 +138,6 @@ const Contact8 = () => {
                         vcahospitals.com
                       </a>
                     </td>
-                    <td className="p-4 text-sm">
-                      Large referral hospital with board-certified specialists
-                      (critical care, surgery, neurology, oncology, etc.).
-                    </td>
                   </tr>
                   <tr className="border-b hover:bg-accent/50 transition-colors">
                     <td className="p-4">
@@ -161,7 +148,7 @@ const Contact8 = () => {
                         2500 N San Fernando Rd, Los Angeles 90065
                       </div>
                     </td>
-                    <td className="p-4 text-sm">~8 ⅓ mi (≈ 13 min)</td>
+
                     <td className="p-4">
                       <div className="text-sm">24 hrs daily</div>
                       <div className="text-sm">☎ 323-800-8387</div>
@@ -174,11 +161,6 @@ const Contact8 = () => {
                         laaser.vet
                       </a>
                     </td>
-                    <td className="p-4 text-sm">
-                      Newest 24/7 facility in the area; adds physical-rehab and
-                      integrative-medicine services if your pet needs follow-up
-                      therapy.
-                    </td>
                   </tr>
                   <tr className="border-b hover:bg-accent/50 transition-colors">
                     <td className="p-4">
@@ -189,7 +171,7 @@ const Contact8 = () => {
                         2570 E Foothill Blvd, Pasadena 91107
                       </div>
                     </td>
-                    <td className="p-4 text-sm">~10 mi (≈ 15 min)</td>
+
                     <td className="p-4">
                       <div className="text-sm">24 hrs daily</div>
                       <div className="text-sm">☎ 626-993-9600</div>
@@ -202,10 +184,6 @@ const Contact8 = () => {
                         accessvetspasadena.com
                       </a>
                     </td>
-                    <td className="p-4 text-sm">
-                      Part of the ACCESS network; extensive imaging (CT, MRI)
-                      on-site; roomy parking lot just off the 210 Freeway.
-                    </td>
                   </tr>
                   <tr className="hover:bg-accent/50 transition-colors">
                     <td className="p-4">
@@ -216,7 +194,7 @@ const Contact8 = () => {
                         1412 Huntington Dr, South Pasadena 91030
                       </div>
                     </td>
-                    <td className="p-4 text-sm">~9 ⅓ mi (≈ 15 min)</td>
+
                     <td className="p-4">
                       <div className="text-sm">
                         Open 24 hrs most days (check ahead)
@@ -230,10 +208,6 @@ const Contact8 = () => {
                       >
                         vcahospitals.com
                       </a>
-                    </td>
-                    <td className="p-4 text-sm">
-                      Good back-up if others are at capacity; full ICU plus
-                      specialty surgery.
                     </td>
                   </tr>
                 </tbody>

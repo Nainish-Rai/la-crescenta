@@ -12,7 +12,7 @@ export function Navbar() {
   ];
 
   return (
-    <nav className="bg-white h-20 w-full max-w-7xl mx-auto flex items-center justify-between px-4">
+    <nav className=" h-20 w-full max-w-7xl mx-auto flex items-center justify-between px-4">
       {/* Logo */}
       <div className="flex items-center ml-4">
         <Image

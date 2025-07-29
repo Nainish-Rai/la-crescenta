@@ -46,8 +46,7 @@ export default function ServicesPage() {
             <p className="text-vet-gray-text">Mon–Fri: 8:30 AM–5:00 PM</p>
           </div>
           <a
-            href="https://www.cvvet.com"
-            target="_blank"
+            href="/contact-us"
             rel="noopener"
             className="mt-4 md:mt-0 bg-vet-primary text-white px-6 py-3 rounded-lg font-semibold"
           >

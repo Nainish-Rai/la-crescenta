@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 interface FeatureProps {
   icon: React.ReactNode;
   title: string;
@@ -201,13 +203,21 @@ export function Features() {
       <div className="flex flex-col gap-12 lg:gap-16">
         {/* Header Section */}
         <div className="lg:col-span-1 flex flex-col justify-between">
-          <div className="space-y-3">
-            <p className="text-sm font-semibold text-primary uppercase tracking-wide">
-              Our Services
-            </p>
-            <h2 className="text-4xl md:text-5xl max-w-md font-semibold text-vet-dark-text mb-3 tracking-tight">
-              Try our services and see for yourself
-            </h2>
+          <div className="w-full flex justify-between items-center mb-8">
+            <div className="space-y-3">
+              <p className="text-sm font-semibold text-primary uppercase tracking-wide">
+                Our Services
+              </p>
+              <h2 className="text-4xl md:text-5xl max-w-md font-semibold text-vet-dark-text mb-3 tracking-tight">
+                Try our services and see for yourself
+              </h2>
+            </div>
+            <Link
+              href="/services"
+              className="bg-white border p-3 px-6 rounded-full text-sm font-semibold text-vet-dark-text hover:text-vet-primary transition-colors"
+            >
+              View all
+            </Link>
           </div>
 
           {/* Customer Testimonials */}
@@ -227,12 +237,12 @@ export function Features() {
           </div>
         </div>
         <div className="mt-12 space-y-5">
-          <p className="text-base text-vet-gray-text max-w-md">
+          {/* <p className="text-base text-vet-gray-text max-w-md">
             These people have already
             <br />
             tried our services
-          </p>
-          <CustomerAvatars />
+          </p> */}
+          {/* <CustomerAvatars /> */}
         </div>
       </div>
     </section>

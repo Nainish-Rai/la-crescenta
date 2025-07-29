@@ -66,6 +66,181 @@ const Contact8 = () => {
             </div>
           </div>
         </div>
+
+        {/* Emergency Hospitals Table */}
+        <div className="mx-auto mt-24 max-w-7xl">
+          <div className="text-center mb-12">
+            <h2 className="mb-3 text-3xl font-bold text-vet-primary">
+              After Hours Emergency Care
+            </h2>
+            <p className="text-lg text-muted-foreground">
+              When your pet needs immediate care outside our regular hours
+            </p>
+          </div>
+
+          <div className="rounded-lg border bg-background overflow-hidden">
+            <div className="overflow-x-auto">
+              <table className="w-full">
+                <thead>
+                  <tr className="border-b bg-accent">
+                    <th className="text-left p-4 font-semibold text-vet-primary">
+                      Hospital
+                    </th>
+                    <th className="text-left p-4 font-semibold text-vet-primary">
+                      Approx. Distance*
+                    </th>
+                    <th className="text-left p-4 font-semibold text-vet-primary">
+                      Contact / Hours
+                    </th>
+                    <th className="text-left p-4 font-semibold text-vet-primary">
+                      Why Choose It
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b hover:bg-accent/50 transition-colors">
+                    <td className="p-4">
+                      <div className="font-semibold text-vet-primary">
+                        Eagle Rock Animal Emergency
+                      </div>
+                      <div className="text-sm text-muted-foreground">
+                        4254 Eagle Rock Blvd, Los Angeles 90065
+                      </div>
+                    </td>
+                    <td className="p-4 text-sm">~6 ⅔ mi (≈ 10 min off-peak)</td>
+                    <td className="p-4">
+                      <div className="text-sm">24 hrs daily</div>
+                      <div className="text-sm">☎ 323-507-2301</div>
+                      <a
+                        href="https://erae.vet/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm text-vet-primary hover:underline"
+                      >
+                        erae.vet
+                      </a>
+                    </td>
+                    <td className="p-4 text-sm">
+                      Nearest option; cats & dogs only; street-level parking
+                      right in front.
+                    </td>
+                  </tr>
+                  <tr className="border-b hover:bg-accent/50 transition-colors">
+                    <td className="p-4">
+                      <div className="font-semibold text-vet-primary">
+                        VCA Animal Specialty Group (ASG)
+                      </div>
+                      <div className="text-sm text-muted-foreground">
+                        4641 Colorado Blvd, Los Angeles 90039
+                      </div>
+                    </td>
+                    <td className="p-4 text-sm">~7 mi (≈ 12 min)</td>
+                    <td className="p-4">
+                      <div className="text-sm">24 hrs daily</div>
+                      <div className="text-sm">☎ 818-244-7977</div>
+                      <a
+                        href="https://vcahospitals.com/animal-specialty-group-los-angeles"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm text-vet-primary hover:underline"
+                      >
+                        vcahospitals.com
+                      </a>
+                    </td>
+                    <td className="p-4 text-sm">
+                      Large referral hospital with board-certified specialists
+                      (critical care, surgery, neurology, oncology, etc.).
+                    </td>
+                  </tr>
+                  <tr className="border-b hover:bg-accent/50 transition-colors">
+                    <td className="p-4">
+                      <div className="font-semibold text-vet-primary">
+                        LAASER – Los Angeles Animal Specialty, Emergency & Rehab
+                      </div>
+                      <div className="text-sm text-muted-foreground">
+                        2500 N San Fernando Rd, Los Angeles 90065
+                      </div>
+                    </td>
+                    <td className="p-4 text-sm">~8 ⅓ mi (≈ 13 min)</td>
+                    <td className="p-4">
+                      <div className="text-sm">24 hrs daily</div>
+                      <div className="text-sm">☎ 323-800-8387</div>
+                      <a
+                        href="https://laaser.vet/contact-us/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm text-vet-primary hover:underline"
+                      >
+                        laaser.vet
+                      </a>
+                    </td>
+                    <td className="p-4 text-sm">
+                      Newest 24/7 facility in the area; adds physical-rehab and
+                      integrative-medicine services if your pet needs follow-up
+                      therapy.
+                    </td>
+                  </tr>
+                  <tr className="border-b hover:bg-accent/50 transition-colors">
+                    <td className="p-4">
+                      <div className="font-semibold text-vet-primary">
+                        ACCESS Specialty Animal Hospital – Pasadena
+                      </div>
+                      <div className="text-sm text-muted-foreground">
+                        2570 E Foothill Blvd, Pasadena 91107
+                      </div>
+                    </td>
+                    <td className="p-4 text-sm">~10 mi (≈ 15 min)</td>
+                    <td className="p-4">
+                      <div className="text-sm">24 hrs daily</div>
+                      <div className="text-sm">☎ 626-993-9600</div>
+                      <a
+                        href="https://accessvetspasadena.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm text-vet-primary hover:underline"
+                      >
+                        accessvetspasadena.com
+                      </a>
+                    </td>
+                    <td className="p-4 text-sm">
+                      Part of the ACCESS network; extensive imaging (CT, MRI)
+                      on-site; roomy parking lot just off the 210 Freeway.
+                    </td>
+                  </tr>
+                  <tr className="hover:bg-accent/50 transition-colors">
+                    <td className="p-4">
+                      <div className="font-semibold text-vet-primary">
+                        VCA TLC Pasadena Veterinary Specialty & Emergency
+                      </div>
+                      <div className="text-sm text-muted-foreground">
+                        1412 Huntington Dr, South Pasadena 91030
+                      </div>
+                    </td>
+                    <td className="p-4 text-sm">~9 ⅓ mi (≈ 15 min)</td>
+                    <td className="p-4">
+                      <div className="text-sm">
+                        Open 24 hrs most days (check ahead)
+                      </div>
+                      <div className="text-sm">☎ 626-441-8555</div>
+                      <a
+                        href="https://vcahospitals.com/tlc-pasadena"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm text-vet-primary hover:underline"
+                      >
+                        vcahospitals.com
+                      </a>
+                    </td>
+                    <td className="p-4 text-sm">
+                      Good back-up if others are at capacity; full ICU plus
+                      specialty surgery.
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

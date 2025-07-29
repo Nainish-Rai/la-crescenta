@@ -14,10 +14,10 @@ export function AboutHero() {
       <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-black/30 sm:rounded-[40px]"></div>
 
       {/* Content container */}
-      <div className="relative mt-2 z-10 max-w-7xl mx-auto px-4 h-full min-h-[600px]">
+      <div className="relative mt-2 z-10 max-w-7xl mx-auto px-4 h-full min-h-[500px]">
         <div className="flex flex-col justify-center h-full">
           {/* Main hero content */}
-          <div className="sm:ml-[100px] mt-[106px] mb-[106px]">
+          <div className="sm:ml-[100px] mt-[106px] mb-[50px]">
             <div className="flex flex-col gap-5 max-w-[600px]">
               {/* Main heading */}
               <h1 className="text-4xl md:text-6xl font-bold leading-[1] tracking-[-0.02em] text-gray-50">

@@ -11,9 +11,9 @@ export default function Home() {
     <div className="">
       <Hero />
       <Features />
-      <Services />
+      {/* <Services /> */}
       <ServicesPreview />
-      <Testimonials />
+      {/* <Testimonials /> */}
       {/* <FAQ /> */}
       <Footer />
     </div>

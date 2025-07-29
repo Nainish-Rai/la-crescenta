@@ -4,7 +4,7 @@ export function AboutHero() {
       {/* Background image */}
       <div className="absolute inset-0">
         <img
-          src="/images/hospital.png"
+          src="https://images.pexels.com/photos/1174081/pexels-photo-1174081.jpeg"
           alt="Crescenta Valley Veterinary Hospital"
           className="absolute inset-0 w-full h-full object-cover sm:rounded-[40px]"
         />
@@ -34,9 +34,9 @@ export function AboutHero() {
 
               {/* Call to action */}
               <div className="flex flex-col sm:flex-row gap-4 mt-4">
-                <button className="bg-primary hover:bg-primary/90 text-primary-foreground text-sm font-semibold px-6 py-3 rounded-lg transition-colors">
+                {/* <button className="bg-primary hover:bg-primary/90 text-primary-foreground text-sm font-semibold px-6 py-3 rounded-lg transition-colors">
                   Schedule an Appointment
-                </button>
+                </button> */}
                 <button className="border-2 border-white text-white hover:bg-white hover:text-gray-900 text-sm font-semibold px-6 py-3 rounded-lg transition-colors">
                   Call (818) 249-0022
                 </button>

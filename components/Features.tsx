@@ -164,24 +164,24 @@ export function Features() {
       description:
         "Complete veterinary services for dogs, cats, birds, rabbits, reptiles, and exotic pets with compassionate, professional attention.",
     },
-    {
-      icon: <GroomingIcon />,
-      title: "Preventive Wellness",
-      description:
-        "Proactive health maintenance including wellness exams, vaccinations, and client education to keep your pet healthy.",
-    },
-    {
-      icon: <VetVisitsIcon />,
-      title: "Medical & Surgical",
-      description:
-        "Advanced medical treatments and surgical procedures using state-of-the-art equipment and modern techniques.",
-    },
-    {
-      icon: <DogWalkingIcon />,
-      title: "AAHA Accredited",
-      description:
-        "Accredited by the American Animal Hospital Association, ensuring the highest standards of veterinary excellence.",
-    },
+    // {
+    //   icon: <GroomingIcon />,
+    //   title: "Preventive Wellness",
+    //   description:
+    //     "Proactive health maintenance including wellness exams, vaccinations, and client education to keep your pet healthy.",
+    // },
+    // {
+    //   icon: <VetVisitsIcon />,
+    //   title: "Medical & Surgical",
+    //   description:
+    //     "Advanced medical treatments and surgical procedures using state-of-the-art equipment and modern techniques.",
+    // },
+    // {
+    //   icon: <DogWalkingIcon />,
+    //   title: "AAHA Accredited",
+    //   description:
+    //     "Accredited by the American Animal Hospital Association, ensuring the highest standards of veterinary excellence.",
+    // },
     {
       icon: <BoardingIcon />,
       title: "Cat Friendly Practice",
@@ -198,7 +198,7 @@ export function Features() {
 
   return (
     <section className="w-full max-w-7xl mx-auto py-16 px-4">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
+      <div className="flex flex-col gap-12 lg:gap-16">
         {/* Header Section */}
         <div className="lg:col-span-1 flex flex-col justify-between">
           <div className="space-y-3">
@@ -211,19 +211,11 @@ export function Features() {
           </div>
 
           {/* Customer Testimonials */}
-          <div className="mt-12 space-y-5">
-            <p className="text-base text-vet-gray-text max-w-md">
-              These people have already
-              <br />
-              tried our services
-            </p>
-            <CustomerAvatars />
-          </div>
         </div>
 
         {/* Services Grid */}
         <div className="lg:col-span-1">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
             {services.map((service, index) => (
               <FeatureCard
                 key={index}
@@ -233,6 +225,14 @@ export function Features() {
               />
             ))}
           </div>
+        </div>
+        <div className="mt-12 space-y-5">
+          <p className="text-base text-vet-gray-text max-w-md">
+            These people have already
+            <br />
+            tried our services
+          </p>
+          <CustomerAvatars />
         </div>
       </div>
     </section>

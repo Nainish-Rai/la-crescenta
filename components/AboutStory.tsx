@@ -24,14 +24,6 @@ export function AboutStory() {
               few clinics in La Crescenta equipped to care for dogs, cats,
               birds, rabbits, reptiles, small mammals, and other exotic pets.
             </p>
-
-            <p>
-              Today, we're proudly AAHA-accredited and certified as a Cat
-              Friendly Practice by the American Association of Feline
-              Practitioners. Our passionate team delivers care with warmth and
-              expertise, empowering pet owners with the knowledge to create a
-              quality lifestyle for their pets.
-            </p>
           </div>
 
           {/* Key stats */}
@@ -57,7 +49,7 @@ export function AboutStory() {
         <div className="relative">
           <div className="relative rounded-[2.5rem] overflow-hidden">
             <img
-              src="/images/hospital.png"
+              src="https://images.pexels.com/photos/9341744/pexels-photo-9341744.jpeg"
               alt="Crescenta Valley Veterinary Hospital Interior"
               className="w-full h-[500px] object-cover"
             />
@@ -65,7 +57,7 @@ export function AboutStory() {
           </div>
 
           {/* Floating card */}
-          <div className="absolute -bottom-6 -left-6 bg-white rounded-2xl p-6 shadow-lg max-w-[280px]">
+          {/* <div className="absolute -bottom-6 -left-6 bg-white rounded-2xl p-6 shadow-lg max-w-[280px]">
             <div className="flex items-center gap-3 mb-3">
               <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
                 <span className="text-white font-bold text-lg">★</span>
@@ -81,7 +73,7 @@ export function AboutStory() {
               "Best vet ever anywhere. You folks are the best, thanks for taking
               such good care of our 4-legged children."
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
